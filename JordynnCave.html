@@ -5,6 +5,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <meta name="description" content="">
       <meta name="author" content="">
+      <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;" />
       <link rel="icon" href="../../favicon.ico">
       <!-- Bootstrap core CSS -->
       <link href="bootstrap-4.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -83,14 +84,24 @@
          .navbar {
          min-height: 100px;
          }
+
+         .img {
+    position: relative;
+    float: left;
+    width:  900;
+    height: 300;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
       </style>
    </head>
    <body style="background-color:#f8f9fa;">
       <!-- 11 - contained in center example -->
       <header class="header">
-         <nav class="navbar navbar-expand-sm navbar-light bg-light" data-toggle="affix" style="padding-right:33px">
+         <nav class="navbar navbar-expand-sm navbar-light bg-light" data-toggle="affix">
             <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
-               <a class="navbar-brand" href="index.html"><img style="max-width:35px"src="fb3.png"></a>
+               <a class="navbar-brand" href="index.html"><img style="max-width:35px"src="caveicon.png"></a>
                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
                </button>
@@ -124,74 +135,39 @@
             </div>
          </nav>
       </header>
-      <div class="container d-flex h-100" >
+      <div class="container d-flex h-100" style="padding-left:50px">
          <div class="row justify-content-center align-self-center">
             <!-- Blog Entries Column -->
             <div class="col-md-8">
                <!-- Blog Post -->
-               <div style="background-color:#f8f9fa; text-align: center;" class="card mb-4 border-0">
-                  <h1 style="background-color:#f8f9fa;" class="mt-2">About Us</h1>
-                  <p>The Indie Clique was founded in 2019 by four friends from college, trying to stay connected through video games. What initially began as simple discussions on games quickly turned into a series of full-blown game reviews. 
-                     In addition to game reviews, we’ll be posting a variety of other content including individual reviews of other media, op-eds, and hey - maybe even podcast! We hope you’ll take a look around and enjoy what you find here. If you do, feel free to give us a follow on Instagram/Twitter/Snapchat (@TheIndieClique) or shoot us an email: theindiecliquereviews@gmail.com.
-                     Read below for our individual bios. 
-                     >
-                  <div class="accordion" id="accordionExample">
-                     <div class="card">
-                        <div class="card-header" id="headingOne">
-                           <h2 class="mb-0">
-                              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                              About Diana
-                              </button>
-                           </h2>
-                        </div>
-                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                           <div class="card-body">
-                           </div>
-                        </div>
-                     </div>
-                     <div class="card">
-                        <div class="card-header" id="headingTwo">
-                           <h2 class="mb-0">
-                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                              About Jordynn
-                              </button>
-                           </h2>
-                        </div>
-                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                           <div class="card-body">
-                           </div>
-                        </div>
-                     </div>
-                     <div class="card">
-                        <div class="card-header" id="headingThree">
-                           <h2 class="mb-0">
-                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                              About Josh
-                              </button>
-                           </h2>
-                        </div>
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                           <div class="card-body">
-                           </div>
-                        </div>
-                     </div>
-                     <div class="card">
-                        <div class="card-header" id="headingFour">
-                           <h2 class="mb-0">
-                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                              About Sergio
-                              </button>
-                           </h2>
-                        </div>
-                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-                           <div class="card-body">
-                           </div>
-                        </div>
-                     </div>
+               <div class="card mb-4">
+                  <img class="img" src="untitledgoosegame.png" alt="Card image cap">
+                  <div class="card-body">
+                     <h2 class="card-title">The Indie Click Reviews: Untitled Goose Game</h2>
+                     <p class="card-text">The Indie Clique kicks off the blog with a game that is sweeping the nation. Will The Untitled Goose Game live off to the hype? Press Y to Honk!</p>
+                     <a href="#" class="btn btn-primary">Read More →</a>
+                  </div>
+                  <div class="card-footer text-muted">
+                     Posted on October 2, 2019 by
+                     <a href="#">The Indie Clique</a>
+                  </div>
+               </div>
+               <!-- Blog Post -->
+               <div class="card mb-4">
+                  <img class="img" src="mprime.png" alt="Card image cap">
+                  <div class="card-body">
+                     <h2 class="card-title">Metroid Prime Enters The Court</h2>
+                     <p class="card-text">I never got a chance to play Metroid Prime for the Gamecube. Does it still hold up today?</p>
+                     <a href="#" class="btn btn-primary">Read More →</a>
+                  </div>
+                  <div class="card-footer text-muted">
+                     Posted on October 2, 2019 by
+                     <a href="#">Sergio Corral</a>
                   </div>
                </div>
             </div>
          </div>
+         <!-- /.row -->
       </div>
       <!--<div class="bg"></div> -->
       <!-- Bootstrap core JavaScript
